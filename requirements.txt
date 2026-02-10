@@ -1,0 +1,4 @@
+requests
+google-adk
+fastmcp
+openai-agents

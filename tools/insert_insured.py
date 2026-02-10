@@ -7,7 +7,7 @@ load_dotenv()
 BASE_URL = os.getenv("NOWCERTS_BASE_URL")
 API_KEY = os.getenv("NOWCERTS_API_KEY")
 
-def insert_insured_no_override(payload: dict):
+def insert_insured(payload: dict):
     """Insert insured without override"""
     url = f"{BASE_URL}/api/Insured/OnlyInsertInsured"
     headers = {
