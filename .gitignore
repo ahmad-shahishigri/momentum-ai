@@ -1,0 +1,152 @@
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled / optimized files
+*.pyo
+*.pyd
+
+##################################
+# Virtual Environments
+##################################
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Poetry / Pipenv
+.poetry/
+poetry.lock
+Pipfile.lock
+
+##################################
+# Environment & Secrets
+##################################
+.env.*
+!.env.example
+
+# OS secrets / local configs
+*.key
+*.pem
+*.crt
+
+##################################
+# FastAPI / ASGI
+##################################
+# Uvicorn / Gunicorn logs
+uvicorn.log
+gunicorn.log
+*.log
+
+# Runtime files
+*.pid
+
+##################################
+# Databases
+##################################
+# SQLite
+*.db
+*.sqlite3
+
+# Local test DB dumps
+*.dump
+*.sql
+
+##################################
+# Caches & Test Artifacts
+##################################
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+##################################
+# Mypy / Ruff / Pyright
+##################################
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+##################################
+# Jupyter / Notebooks
+##################################
+.ipynb_checkpoints/
+
+##################################
+# IDEs & Editors
+##################################
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# PyCharm / JetBrains
+.idea/
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+.#*
+
+##################################
+# OS Files
+##################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+##################################
+# Docker
+##################################
+# Ignore local overrides
+docker-compose.override.yml
+
+# Docker artifacts
+*.tar
+
+##################################
+# Build / Distribution
+##################################
+build/
+dist/
+*.egg-info/
+.eggs/
+
+##################################
+# Static / Media (if generated)
+##################################
+staticfiles/
+media/
+
+##################################
+# FastAPI Docs Output (if generated)
+##################################
+openapi.json
+
+##################################
+# Celery / Background Workers
+##################################
+celerybeat-schedule
+celerybeat.pid
+
+##################################
+# Logs & Monitoring
+##################################
+logs/
+*.log.*
+
+##################################
+# Temporary files
+##################################
+tmp/
+temp/
